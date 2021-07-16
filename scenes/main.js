@@ -91,7 +91,7 @@ const score = add([
 
 const timer = add([
   text('0'),
-  pos(90, 50),
+  pos(500, 320),
   scale(2),
   layer('ui'),
   {

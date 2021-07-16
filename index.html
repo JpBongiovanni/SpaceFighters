@@ -51,7 +51,7 @@ scene("main", (args = {}) => {
 const MOVE_SPEED = 200
 const INVADER_SPEED = 100 
 let CURRENT_SPEED = INVADER_SPEED
-const LEVEL_DOWN = 200
+const LEVEL_DOWN = 100
 const TIME_LEFT = 30
 const BULLET_SPEED = 400
 
@@ -141,7 +141,7 @@ const score = add([
 
 const timer = add([
   text('0'),
-  pos(90, 50),
+  pos(500, 320),
   scale(2),
   layer('ui'),
   {
